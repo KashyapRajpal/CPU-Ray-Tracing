@@ -9,7 +9,7 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "Ray.h"
+#include "../Math/Ray.h"
 
 class Camera {
 

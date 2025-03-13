@@ -8,7 +8,7 @@
 
 #ifndef Sphere_h
 #define Sphere_h
-#include "Hittable.h"
+#include "../Math/Hittable.h"
 
 class Sphere : public Hittable
 {

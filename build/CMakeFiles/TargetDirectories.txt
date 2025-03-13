@@ -1,0 +1,6 @@
+/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/build/CMakeFiles/raytracing.dir
+/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/build/CMakeFiles/edit_cache.dir
+/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/build/CMakeFiles/rebuild_cache.dir
+/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/build/Raytracing/Core/CMakeFiles/core.dir
+/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/build/Raytracing/Core/CMakeFiles/edit_cache.dir
+/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/build/Raytracing/Core/CMakeFiles/rebuild_cache.dir

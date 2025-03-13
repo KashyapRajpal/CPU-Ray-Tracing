@@ -9,14 +9,16 @@
 #include <iostream>
 #include <fstream>
 #include <string.h>
+#include "Core/Math/Material.h"
 #include "Core/Shape/Sphere.h"
+#include "Core/Math/HitRecord.h"
 #include "Core/Math/Hittablelist.h"
-#include "Camera.h"
+#include "Core/Camera/Camera.h"
 #include "System/ThreadPool.h"
 
 using namespace std;
 
-#define ASSETS_PATH "/Users/kash/Desktop/Projects/Raytracing/Raytracing/Assets/"
+#define ASSETS_PATH "/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/Raytracing/Assets/"
 #define DIFFUSE_IN_HEMISPHERE 0
 #define USE_MULTITHREADED_SYSTEM 1
 std::mutex main_mutex;
@@ -148,7 +150,7 @@ int main(int argc, const char * argv[])
     std::ofstream outputImage;
     string imageFileName(ASSETS_PATH);
 #if USE_MULTITHREADED_SYSTEM
-    imageFileName += "Basic_Image_5.ppm";
+    imageFileName += "Basic_Image_6.ppm";
 #else
     imageFileName += "Basic_Image_4.ppm";
 #endif
@@ -185,6 +187,7 @@ int main(int argc, const char * argv[])
     outputImage << "P3\n" << image_width << " " << image_height << "\n255\n";
     std::string pixelColorString;
     
+    cout << "Creating image " << imageFileName << endl;
 #if USE_MULTITHREADED_SYSTEM
     ThreadPool threadPool;
 #endif

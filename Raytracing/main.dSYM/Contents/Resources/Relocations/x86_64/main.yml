@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/kashyaprajpal/Desktop/Personal Projects/CPU-Ray-Tracing/Raytracing/main'
+relocations:     []
+...

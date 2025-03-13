@@ -6,11 +6,10 @@
 //  Copyright © 2020 Kashyap Rajpal. All rights reserved.
 //
 
-#include "Material.h"
+/*#include "Material.h"
 #include "Hittable.h"
 
 bool Lambertian::Scatter(const Ray& r_in, const HitRecord& rec, Vector3& attenuation, Ray& scattered_out) const
-
 {
     Vector3 scatter_direction = rec.m_normal + Vector3::GetRandomUnitVector();
     scattered_out = Ray(rec.m_point, scatter_direction);
@@ -62,3 +61,4 @@ bool Dielectric::Scatter(const Ray& r_in, const HitRecord& rec, Vector3& attenua
     scattered = Ray(rec.m_point, refracted);
     return true;
 }
+*/

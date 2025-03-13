@@ -31,6 +31,7 @@ public:
             m_numThreads = 1;
         }
         
+        cout << "Created thread pool with " << m_numThreads << " threads" << endl;
         for (int i = 0; i < m_numThreads; ++i)
         {
             m_pool.push_back(std::thread(&ThreadPool::DoWork, this));
